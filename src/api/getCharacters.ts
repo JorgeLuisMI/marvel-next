@@ -26,6 +26,9 @@ export async function getCharacters({
     url.searchParams.append('hash', NEXT_PUBLIC_API_HASH);
     url.searchParams.append('limit', limit.toString());
 
+    const randomNumber = Math.floor(Math.random() * Math.floor(1000));
+    url.searchParams.append('offset', randomNumber.toString());
+
     if (name && name.trim()) {
       url.searchParams.append('nameStartsWith', name.trim());
     }
