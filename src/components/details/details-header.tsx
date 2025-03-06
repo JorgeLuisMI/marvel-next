@@ -32,6 +32,13 @@ export default async function DetailsHeader({ params }: TypeDetailsPageProps) {
               width={500}
               height={750}
             />
+            <div className='details-header-favorite'>
+              <FavoriteButton
+                id={character.id.toString()}
+                h={21}
+                classButton=''
+              />
+            </div>
           </div>
           <div className='details-header-content text-white flex flex-col justify-center md:ml-14'>
             <h1 className='md:text-6xl text-3xl font-bold mb-4'>
