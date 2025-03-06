@@ -1,6 +1,6 @@
 {
-  "name": "inditex-marvel",
-  "version": "0.1.0",
+  "name": "marvel-next",
+  "version": "1.0.2",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
