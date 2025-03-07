@@ -1,8 +1,11 @@
+/**
+ * @jest-environment jsdom
+ */
 import '@testing-library/jest-dom';
 import { render, screen, waitFor } from '@testing-library/react';
-import SearchPage from '../search/page';
 import { getCharacters } from '@/api/getCharacters';
 import { UseCountProvider } from '@/context/CountContext';
+import SearchPage from '../search/page';
 
 // Mock de next/navigation
 jest.mock('next/navigation', () => ({

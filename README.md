@@ -1,6 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) by [@jorgeluismi](https://github.com/jorgeluismi)❤️ 🇪🇸 🇪🇨
 
-## Getting Started
+## Getting Started 😺
+
+You can start editing the page by modifying `/src/app/page.tsx`. The page auto-updates as you edit the file.
 
 First, run the development server:
 
@@ -14,50 +16,130 @@ pnpm dev
 bun dev
 ```
 
-## Deploy
+## Linting 🚨
+
+```bash
+npm run lint
+# or
+yarn lint
+# or
+pnpm lint
+# or
+bun lint
+```
+
+## Testing 🧪
+
+```bash
+npm run test
+# or
+yarn test
+# or
+pnpm test
+# or
+bun test
+```
+
+## Deployment 🚀
 
 ```bash
 npm run build
 npm run start
+# or
+yarn build
+yarn start
+# or
+pnpm build
+pnpm start
+# or
+bun build
+bun start
 ```
 
-## Deploy to Vercel
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Deploy to Vercel 🚀
 
 ```bash
 vercel
 ```
 
-## Deploy to Netlify
+## Deploy to Netlify 🚀
 
 ```bash
 netlify deploy
 ```
 
-## Lint
+## Tests implemented 🧪
 
-```bash
-npm run lint
+- [x] Home page test
+- [x] Search page test
+- [x] Character page test
+- [x] Favorites page test
+
+  Test coverage:
+
+  - Search and counter
+  - Character rendering
+  - Interaction with the input
+  - Data loading
+  - Favorites handling
+
+## Rendering techniques 🎨
+
+- [x] Server components
+- [x] Client components
+- [x] Server actions
+- [x] Client actions
+
+## Applied techniques 🧠
+
+- Code splitting
+- Error handling
+- Type safety
+- Data fetching
+- Data caching
+
+## Technologies 🤖
+
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS
+- React Hooks
+- React Query
+- React Testing Library
+- Jest
+
+## Best practices 🌟:
+
+- Clean code 🧹
+- Consistent naming 🔤
+- Consistent structure 📦
+- Consistent style 🎨
+- Consistent documentation 📚
+- Consistent testing 🧪
+- Consistent linting 🚨
+- Consistent formatting 📝
+- Consistent performance 🚀
+- Consistent security 🔒
+
+## v1.1 ⚡
+
+```json
+{
+  "errors": {0: ☣️},
+  "alerts": {0: ☣️},
+  "warnings": {0: ☣️},
+  "linterErrors": {0: ☣️},
+  "linterWarnings": {0: ☣️},
+  "buildErrors": {0: ☣️},
+  "buildWarnings": {0: ☣️},
+  "testErrors": {0: ☣️},
+  "testWarnings": {0: ☣️}
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💖 Thanks for using this project!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-With love from [@jorgeluismi](https://github.com/jorgeluismi)
+With love from [@jorgeluismi](https://github.com/jorgeluismi)❤️ 🇪🇸 🇪🇨

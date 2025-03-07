@@ -26,11 +26,6 @@ export interface TypeCountContext {
   setCount: Dispatch<SetStateAction<number | null>>;
 }
 
-export interface TypeNameContext {
-  name: string | null;
-  setName: Dispatch<SetStateAction<string | null>>;
-}
-
 export interface TypeCharacterSearchParams {
   name?: string;
   limit?: number;
